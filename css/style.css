@@ -1,0 +1,83 @@
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none; color: #222;}
+body{font-size: 14px; line-height: 24px; color: #222; font-family: 'GowunDodum-Regular';}
+
+/*고운돋음*/
+@font-face {
+    font-family: 'GowunDodum-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunDodum-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* header */
+#header{width: 100%; height: 130px; background-color: #75877a; font-size: 20px; position: relative;}
+
+.header_inner{width: 1320px; height: 130px; margin: 0 auto;}
+.logo{float: left; margin: 17px 0;}
+.nav{float: right;}
+.nav li{float: left;}
+.nav li a{display: block; margin-top: 66px; padding: 20px 70px; color: #fff;}
+.nav li a:hover{background-color: #fff; color: #75877a;}
+
+/* banner */
+#banner{width: 100%; height: 750px; background: url(../images/banner.jpg) no-repeat center top; background-size: cover;}
+
+/* event */
+#event{width: 1320px; height: 1250px; margin: 100px auto; font-family: 'GowunDodum-Regular';}
+.event_link{margin-bottom: 50px; width: 100%; height: 600px;}
+.event_link li{float: left; width: 420px; height: 600px; padding: 20px; box-sizing: border-box; border: #222 1px solid; border-radius: 15px;  position: relative;}
+.event_link li:nth-child(2){margin: 0 30px;}
+.blod{font-weight: bold;}
+.px25{font-size: 25px; margin-top: 30px;}
+.px18{font-size: 18px;}
+.grey{color: #555; margin: 15px 0 30px;}
+
+.img{width: 380px; height: 380px; border-radius: 15px; overflow: hidden;}
+
+.btn{display: inline-block; position: absolute; right: 20px; bottom: 20px; padding: 5px 10px; background-color: #eee; border-radius: 15px;}
+.btn:hover{background-color: #75877a; color: #fff;}
+/* .img:hover .box{transform: translateY(-380px);}
+
+.box{width: 100%; height: 100%; text-align: center; position: absolute; left: 0; top: 380px; padding-top: 30px; box-sizing: border-box; background-color: rgba(0, 0, 0, 0.1); transition: all 1s;}
+.btn{display: inline-block; padding: 150px 95px; border-radius: 15px; background-color: rgba(255, 255, 255, 0.9); font-size: 25px; font-weight: bold;} */
+
+
+
+/* time */
+#time{width: 100%; height: 1050px; margin: 0 auto; background-color: #ead4c2;}
+.time_inner{width: 1320px; height: 1050px; margin: 0 auto; text-align: center; padding: 65px 0; box-sizing: border-box; font-family: 'GowunDodum-Regular';}
+.px65{font-size: 65px; font-family: "noto sans"; margin: 50px 0 25px;}
+.orange{color: #c08b60; padding: 8px 40px; border-radius: 20px; background-color: #fff; display: inline-block;}
+
+.time_box{margin-top: 85px;}
+.time_box li{float: left; text-align: left; border-radius: 150px 150px 0 0; width: 300px; height: 550px; background-color: #fff; margin-right: 30px; box-sizing: border-box; position: relative;}
+.time_box li:nth-child(4){margin: 0;}
+.label{position: absolute; right: -15px; top: -25px; z-index: 50;} 
+
+.time_text{padding: 20px; position: relative;}
+.green{color: #75877a; font-size: 30px; font-weight: bold; margin-top: 20px;}
+.line_through{text-decoration: line-through; color: #999999;}
+.border{padding-bottom: 20px; border-bottom: #222 1px solid; margin-bottom: 40px;}
+.time_btn{display: inline-block; position: absolute; right: 65px; bottom: 45px;}
+.time_btn:hover{text-shadow: #75877a 2px 2px 2px;}
+
+/*footer*/
+#footer{width: 100%; height: 300px; margin:0 auto; background-color: #75877a; color: #fff; font-family: "noto sans";}
+.footer_inner{width: 1320px; margin: 0 auto; height: 300px; position: relative; padding-top: 50px; box-sizing: border-box;}
+.footer_logo{position: absolute; right: 0; bottom: 50px;}
+.px30{font-size: 30px; margin-bottom: 30px;}
+.footer_text{float: left;}
+.footer_icon{float: right;}
+.footer_icon li{float: left;}
+.footer_icon li a{display: block; margin-left: 15px; opacity: 0.5;}
+.footer_icon li a:hover{opacity: 1;}
+table{margin-top: 40px;}
+th:nth-child(2n-1){padding-right: 20px;}
+th:nth-child(2n){padding-right: 35px;}
+th:nth-child(2){font-size: 25px;}
+th:nth-child(4){font-weight: normal;}
+th:nth-child(6){font-weight: normal;}
+
+.top{position:fixed; bottom:50px; right:50px; display:none; z-index: 90;}
